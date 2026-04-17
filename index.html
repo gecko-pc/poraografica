@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porão Gráfica | Qualidade que Impressiona</title>
+    <title>Porão Gráfica Digital | Qualidade que Impressiona</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap');
 
         body {
             font-family: 'Inter', sans-serif;
@@ -15,7 +15,7 @@
         }
 
         .gradient-text {
-            background: linear-gradient(90deg, #fbbf24, #f59e0b);
+            background: linear-gradient(90deg, #ec4899, #f59e0b); /* Rosa para Laranja */
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
@@ -29,16 +29,19 @@
         .service-card:hover {
             transform: translateY(-10px);
             transition: all 0.3s ease;
-            border-color: #fbbf24;
+            border-color: #22d3ee; /* Ciano */
         }
 
         .cta-button {
+            background: linear-gradient(90deg, #ec4899, #f59e0b);
+            color: white !important;
+            border: none;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(251, 191, 36, 0.3);
+            box-shadow: 0 4px 15px rgba(236, 72, 153, 0.3);
         }
 
         .cta-button:hover {
-            box-shadow: 0 6px 20px rgba(251, 191, 36, 0.5);
+            box-shadow: 0 6px 20px rgba(236, 72, 153, 0.5);
             transform: scale(1.05);
         }
     </style>
@@ -49,18 +52,15 @@
     <nav class="fixed w-full z-50 glass py-4">
         <div class="container mx-auto px-6 flex justify-between items-center">
             <div class="flex items-center space-x-2">
-                <div class="w-10 h-10 bg-amber-500 rounded-lg flex items-center justify-center">
-                    <i class="fas fa-print text-zinc-950 text-xl"></i>
-                </div>
-                <span class="text-xl font-extrabold tracking-tighter uppercase">Porão <span class="text-amber-500">Gráfica</span></span>
+                <span class="text-3xl font-black italic tracking-tighter">Porão <span class="text-[10px] not-italic font-bold tracking-widest block -mt-1 uppercase text-white">Gráfica <span class="text-cyan-400">Digital</span></span></span>
             </div>
             <div class="hidden md:flex space-x-8 font-medium text-sm uppercase tracking-widest">
-                <a href="#home" class="hover:text-amber-500 transition">Início</a>
-                <a href="#servicos" class="hover:text-amber-500 transition">Serviços</a>
-                <a href="#portfolio" class="hover:text-amber-500 transition">Portfólio</a>
-                <a href="#contato" class="hover:text-amber-500 transition">Contato</a>
+                <a href="#home" class="hover:text-pink-500 transition">Início</a>
+                <a href="#servicos" class="hover:text-cyan-400 transition">Serviços</a>
+                <a href="#portfolio" class="hover:text-amber-400 transition">Portfólio</a>
+                <a href="#contato" class="hover:text-pink-500 transition">Contato</a>
             </div>
-            <a href="https://wa.me/5547988276563" target="_blank" class="bg-amber-500 text-zinc-950 px-5 py-2 rounded-full font-bold text-sm cta-button">
+            <a href="https://wa.me/5547988276563" target="_blank" class="px-5 py-2 rounded-full font-bold text-sm cta-button">
                 ORÇAMENTO RÁPIDO
             </a>
         </div>
@@ -69,25 +69,25 @@
     <!-- Hero Section -->
     <section id="home" class="relative min-h-screen flex items-center pt-20 overflow-hidden">
         <!-- Background Decor -->
-        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-amber-500/10 rounded-full blur-[100px]"></div>
-        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-blue-500/10 rounded-full blur-[100px]"></div>
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-pink-500/20 rounded-full blur-[100px]"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-cyan-500/20 rounded-full blur-[100px]"></div>
 
         <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
             <div>
-                <span class="inline-block py-1 px-3 rounded-full bg-amber-500/10 text-amber-500 text-xs font-bold tracking-widest uppercase mb-6">
+                <span class="inline-block py-1 px-3 rounded-full bg-cyan-500/10 text-cyan-400 text-xs font-bold tracking-widest uppercase mb-6">
                     Excelência em Impressão em Joinville
                 </span>
                 <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
-                    Sua ideia fora do papel, com <span class="gradient-text">perfeição.</span>
+                    A sua ideia fora do papel, com <span class="gradient-text">perfeição.</span>
                 </h1>
                 <p class="text-zinc-400 text-lg mb-8 max-w-lg">
-                    No Porão Gráfica, transformamos criatividade em realidade física. De cartões de visita a banners gigantes, entregamos qualidade Premium com o melhor preço de Joinville e região.
+                    No Porão Gráfica Digital, transformamos criatividade em realidade física. De cartões de visita a banners gigantes, entregamos qualidade Premium com o melhor preço de Joinville e região.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="https://wa.me/5547988276563" target="_blank" class="bg-amber-500 text-zinc-950 text-center px-8 py-4 rounded-xl font-bold text-lg cta-button">
+                    <a href="https://wa.me/5547988276563" target="_blank" class="text-center px-8 py-4 rounded-xl font-bold text-lg cta-button">
                         Falar com Consultor
                     </a>
-                    <a href="#servicos" class="border border-zinc-700 text-center px-8 py-4 rounded-xl font-bold text-lg hover:bg-zinc-800 transition">
+                    <a href="#servicos" class="border border-zinc-700 text-center px-8 py-4 rounded-xl font-bold text-lg hover:border-cyan-400 hover:text-cyan-400 transition">
                         Ver Catálogo
                     </a>
                 </div>
@@ -108,8 +108,8 @@
                 <!-- Card flutuante -->
                 <div class="absolute -bottom-6 -left-6 glass p-6 rounded-2xl shadow-xl hidden lg:block">
                     <div class="flex items-center space-x-4">
-                        <div class="bg-green-500/20 p-3 rounded-full">
-                            <i class="fas fa-check text-green-500"></i>
+                        <div class="bg-cyan-500/20 p-3 rounded-full">
+                            <i class="fas fa-check text-cyan-400"></i>
                         </div>
                         <div>
                             <p class="font-bold">Qualidade Premium</p>
@@ -125,41 +125,41 @@
     <section id="servicos" class="py-24 bg-zinc-900/50">
         <div class="container mx-auto px-6">
             <div class="text-center mb-16">
-                <h2 class="text-4xl font-bold mb-4">O que fazemos de <span class="text-amber-500">melhor</span></h2>
-                <p class="text-zinc-400">Soluções completas para sua marca brilhar.</p>
+                <h2 class="text-4xl font-bold mb-4">O que fazemos de <span class="text-pink-500">melhor</span></h2>
+                <p class="text-zinc-400">Soluções completas para a sua marca brilhar.</p>
             </div>
             <div class="grid md:grid-cols-3 gap-8">
                 <!-- Serviço 1 -->
                 <div class="glass p-8 rounded-3xl service-card border border-transparent">
-                    <i class="fas fa-id-card text-4xl text-amber-500 mb-6"></i>
+                    <i class="fas fa-id-card text-4xl text-cyan-400 mb-6"></i>
                     <h3 class="text-2xl font-bold mb-4">Identidade Visual</h3>
-                    <p class="text-zinc-400 mb-6">Cartões de visita premium, Panfletos, Adesivos e Albuns personalizadas.</p>
+                    <p class="text-zinc-400 mb-6">Cartões de visita premium, Adesivos, Panfletos e Albuns personalizadas.</p>
                     <ul class="text-sm space-y-2 mb-8 text-zinc-300">
-                        <li><i class="fas fa-check text-amber-500 mr-2"></i> Verniz Localizado</li>
-                        <li><i class="fas fa-check text-amber-500 mr-2"></i> Soft Touch</li>
-                        <li><i class="fas fa-check text-amber-500 mr-2"></i> Hot Stamping</li>
+                        <li><i class="fas fa-check text-cyan-400 mr-2"></i> Verniz Localizado</li>
+                        <li><i class="fas fa-check text-cyan-400 mr-2"></i> Soft Touch</li>
+                        <li><i class="fas fa-check text-cyan-400 mr-2"></i> Hot Stamping</li>
                     </ul>
                 </div>
                 <!-- Serviço 2 -->
                 <div class="glass p-8 rounded-3xl service-card border border-transparent">
-                    <i class="fas fa-bullhorn text-4xl text-amber-500 mb-6"></i>
+                    <i class="fas fa-bullhorn text-4xl text-pink-500 mb-6"></i>
                     <h3 class="text-2xl font-bold mb-4">Comunicação Visual</h3>
                     <p class="text-zinc-400 mb-6">Banners, fachadas, adesivação de frotas e sinalização interna para empresas.</p>
                     <ul class="text-sm space-y-2 mb-8 text-zinc-300">
-                        <li><i class="fas fa-check text-amber-500 mr-2"></i> Lona Front e Backlight</li>
-                        <li><i class="fas fa-check text-amber-500 mr-2"></i> Placas de ACM</li>
-                        <li><i class="fas fa-check text-amber-500 mr-2"></i> Adesivos de Recorte</li>
+                        <li><i class="fas fa-check text-pink-500 mr-2"></i> Lona Front e Backlight</li>
+                        <li><i class="fas fa-check text-pink-500 mr-2"></i> Placas de ACM</li>
+                        <li><i class="fas fa-check text-pink-500 mr-2"></i> Adesivos de Recorte</li>
                     </ul>
                 </div>
                 <!-- Serviço 3 -->
                 <div class="glass p-8 rounded-3xl service-card border border-transparent">
-                    <i class="fas fa-box-open text-4xl text-amber-500 mb-6"></i>
+                    <i class="fas fa-box-open text-4xl text-amber-400 mb-6"></i>
                     <h3 class="text-2xl font-bold mb-4">Embalagens</h3>
                     <p class="text-zinc-400 mb-6">Caixas personalizadas e rótulos que agregam valor imediato ao seu produto.</p>
                     <ul class="text-sm space-y-2 mb-8 text-zinc-300">
-                        <li><i class="fas fa-check text-amber-500 mr-2"></i> Rótulos em PP</li>
-                        <li><i class="fas fa-check text-amber-500 mr-2"></i> Sacolas de Papel</li>
-                        <li><i class="fas fa-check text-amber-500 mr-2"></i> Etiquetas Kraft</li>
+                        <li><i class="fas fa-check text-amber-400 mr-2"></i> Rótulos em Papel e vinil</li>
+                        <li><i class="fas fa-check text-amber-400 mr-2"></i> Sacos de Papel</li>
+                        <li><i class="fas fa-check text-amber-400 mr-2"></i> Etiquetas Kraft</li>
                     </ul>
                 </div>
             </div>
@@ -171,10 +171,10 @@
         <div class="container mx-auto px-6">
             <div class="flex justify-between items-end mb-12">
                 <div>
-                    <h2 class="text-4xl font-bold mb-4 text-amber-500">Nosso Trabalho</h2>
+                    <h2 class="text-4xl font-bold mb-4 text-cyan-400">O Nosso Trabalho</h2>
                     <p class="text-zinc-400">Confira alguns projetos entregues recentemente.</p>
                 </div>
-                <a href="https://wa.me/5547988276563" target="_blank" class="hidden md:block text-amber-500 font-bold border-b-2 border-amber-500 pb-1">Ver mais fotos no WhatsApp</a>
+                <a href="https://wa.me/5547988276563" target="_blank" class="hidden md:block text-pink-500 font-bold border-b-2 border-pink-500 pb-1">Ver mais fotos no WhatsApp</a>
             </div>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div class="h-64 rounded-2xl overflow-hidden">
@@ -197,13 +197,13 @@
     <section id="contato" class="py-24 bg-zinc-900/50">
         <div class="container mx-auto px-6 grid md:grid-cols-2 gap-12">
             <div>
-                <h2 class="text-4xl font-bold mb-8">Onde nos <span class="text-amber-500">encontrar?</span></h2>
+                <h2 class="text-4xl font-bold mb-8">Onde nos <span class="text-amber-400">encontrar?</span></h2>
                 <p class="text-zinc-400 mb-8 text-lg">
-                    Estamos localizados em Pirabeiraba, Joinville. Venha nos visitar ou solicite seu orçamento via WhatsApp!
+                    Estamos localizados em Pirabeiraba, Joinville. Venha visitar-nos ou solicite o seu orçamento via WhatsApp!
                 </p>
                 <div class="space-y-6">
                     <div class="flex items-start space-x-4">
-                        <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-500 shrink-0">
+                        <div class="w-12 h-12 bg-cyan-500/10 rounded-xl flex items-center justify-center text-cyan-400 shrink-0">
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
                         <div>
@@ -212,7 +212,7 @@
                         </div>
                     </div>
                     <div class="flex items-start space-x-4">
-                        <div class="w-12 h-12 bg-amber-500/10 rounded-xl flex items-center justify-center text-amber-500 shrink-0">
+                        <div class="w-12 h-12 bg-pink-500/10 rounded-xl flex items-center justify-center text-pink-500 shrink-0">
                             <i class="fas fa-phone"></i>
                         </div>
                         <div>
@@ -240,13 +240,11 @@
     <!-- Footer -->
     <footer class="py-12 border-t border-zinc-800">
         <div class="container mx-auto px-6 text-center">
-            <div class="flex items-center justify-center space-x-2 mb-8">
-                <div class="w-8 h-8 bg-amber-500 rounded flex items-center justify-center">
-                    <i class="fas fa-print text-zinc-950 text-sm"></i>
-                </div>
-                <span class="text-lg font-extrabold uppercase tracking-tighter">Porão <span class="text-amber-500">Gráfica</span></span>
+            <div class="flex flex-col items-center justify-center mb-8">
+                <span class="text-4xl font-black italic tracking-tighter">Porão</span>
+                <span class="text-sm not-italic font-bold tracking-widest uppercase text-white">Gráfica <span class="text-cyan-400">Digital</span></span>
             </div>
-            <p class="text-zinc-500 text-sm mb-4">&copy; 2020 Porão Gráfica - Joinville / Pirabeiraba. Todos os direitos reservados.</p>
+            <p class="text-zinc-500 text-sm mb-4">&copy; 2020 Porão Gráfica Digital - Joinville / Pirabeiraba. Todos os direitos reservados.</p>
             <div class="flex justify-center space-x-6">
                 <a href="https://wa.me/5547988276563" target="_blank" class="text-zinc-500 hover:text-white transition"><i class="fab fa-whatsapp text-xl"></i></a>
                 <a href="https://www.instagram.com/poraografica" class="text-zinc-500 hover:text-white transition"><i class="fab fa-instagram text-xl"></i></a>
